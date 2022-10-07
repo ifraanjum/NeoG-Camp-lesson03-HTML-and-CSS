@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.container
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container-center
+{
+    max-width:400px;
+    margin:auto
+}
+.link
+{
+    text-decoration: none;
+    color:black;
+    padding:0.3rem 0.5rem;
+    border-radius:10px;
+    background-color: cornflowerblue;
+    margin-bottom: 5px;
+    
+  
+}
+hr{
+    margin:1rem 0rem;
+}
+.non-bullet
+{
+    list-style: none;
+}
+.list-item-inline
+{
+    display:inline;
+    padding: 0rem 0.5rem;
+}
+.navigation{
+    background-color: cornflowerblue;
+    padding:5px 0px;
+    border-bottom-left-radius:20px;
+   
+}
+.navigation .link{
+    color:white;
+}
+.navigation .non-bullet
+{
+    text-align: right;
+}
+.navigation .nav-brand
+{
+    font-weight: bold;
+    font-size: large;
+    padding-left: 15px;
+}
+.navigation .link-active
+{
+    font-weight: bolder;
+}
+.hero .hero-img
+{
+    width:150px;
+    margin:auto;
+    display: block;
+} 
+.hero{
+    padding: 1rem;
+    text-align: center;
+}
+.hero .hero-heading
+{
+    color:gray
+}
+.section h1
+{
+ text-align: center;
+}
+.section{
+    padding:20px;
+   
+}
+.ow
+{
+    background-color: gainsboro;
+    margin-top: 110px 0px;
+}
+.footer
+{
+    background-color: cornflowerblue;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    border-top-right-radius: 20px;
+    margin-top: 50px;
+}
+.footer .link{
+    color:darkred
+}
+
+/* i{
+    padding-right: 1px;
+} */
+
+.footer .footer-header
+{
+    font-weight: bold;
+    font-size: large;
+}
